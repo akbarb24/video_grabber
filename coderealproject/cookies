@@ -1,0 +1,15 @@
+---
+coderealprojects.com:
+  "/":
+    _myapp_session: !ruby/object:Mechanize::Cookie
+      name: _myapp_session
+      value: SW5jMldpOU5NODlUejZjUWthbmVpWFptSWs0bmdWdzZTamkzTG9ZTWJmZDNWQ0pwQ01vSWZGT0FVQlFyS0V1N3ptYWQ5QlpGYmg3TnBabWlyQlQrZHVCdWV4cmF3eVF5MVJuOThvV09sS3pIdml5OGtkakhhZmdOZTNsK2tEQlk4eEdzZUZzZWpHY1VZMHRUOTVOaHJrczJhTUJGcGZXTkx5UzRNOTQ1bFMvcmIzWlZSWWUyVStyWTFnODg1Vm1EZUdlSGxMRjZsczFOME4zNWxGTnQ0TkNmcjlURXdWZ2ZVSyt4bTdLUjNZQS9SS0FINXFCd1dxL2cvRnY3dVZnYjhsS1FwQkxwTW41RU11L2hWVExGY0xFTllyNnFhT1VGK1d4QzZMS2JTaEN0OXF5QWdpWnJLQ1pGc3R6Q21WVEJOUnBFY0hMU1BveWFVcTBNRDVHVGhuVE9uc1BKM1RRa0JpWW1zTUlaYWE3ekJpb3c0dlFuL2lTTjN5K2pLL2VRU3dJcUpSdlFuU0xPYVJJSHBKY0YxOFJWZCt3K2NVRDN3MXlnWGZuejRlSWdsQlA0eEhFOTU4T0oyM2svak13VVpVb1BSMUpOY1FWZmYvanBBQ0dVYSszVkpOcE5lTCtNMmcxd2VVZnlwSWgrOTE4b2M5Z2V6MjlCREFyUjBvQTQtLWtwMEJhclRmZlI5TzRpVDUxcFpXR1E9PQ%3D%3D--3fbede587a03c50413bdb62950c345abd30b6d34
+      domain: coderealprojects.com
+      for_domain: false
+      path: "/"
+      secure: false
+      httponly: true
+      expires: 
+      max_age: 
+      created_at: &1 2019-07-19 16:22:35.727529000 +07:00
+      accessed_at: *1
