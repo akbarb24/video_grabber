@@ -3,7 +3,7 @@ require_relative 'downloader'
 
 video_code_list = Array.new
 
-file='url_list_1.txt'
+file='url_list_2.txt'
 File.readlines(file).each do |line|
   video_code = line[/(?<=amp;wvideo=)(.*)(?="><img )/]
   video_code_list.push(video_code)

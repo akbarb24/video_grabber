@@ -35,7 +35,7 @@ class Downloader
   def config
     @video.options.configure do |c|
       c.get_filename = true
-      c.output = "download/%(title)s.mp4"
+      c.output = "./download/%(title)s.mp4"
       # c.simulate = true
       c.format = "mp4"
     end

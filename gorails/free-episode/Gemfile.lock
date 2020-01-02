@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/akbarb24/youtube-dl.rb.git
+  revision: cfcd97e393caddbc7264a4bc8e6601041fbfcfaf
+  branch: update-youtube-dl
+  specs:
+    youtube-dl.rb (0.3.1.2016.09.11.1)
+      cocaine (>= 0.5.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -8,8 +16,6 @@ GEM
     ruby-progressbar (1.10.1)
     terrapin (0.6.0)
       climate_control (>= 0.0.3, < 1.0)
-    youtube-dl.rb (0.3.1.2016.09.11.1)
-      cocaine (>= 0.5.4)
 
 PLATFORMS
   ruby
@@ -17,7 +23,7 @@ PLATFORMS
 DEPENDENCIES
   parallel (~> 1.11, >= 1.11.2)
   ruby-progressbar (~> 1.8, >= 1.8.1)
-  youtube-dl.rb
+  youtube-dl.rb!
 
 BUNDLED WITH
    2.0.2

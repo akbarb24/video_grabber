@@ -2,8 +2,8 @@ require 'youtube-dl.rb'
 
 class Downloader
 
-  def initialize(video_code)
-    video_url = "https://fast.wistia.net/embed/iframe/#{video_code}?videoFoam=true"
+  def initialize(youtube_video_url)
+    video_url = youtube_video_url
     @video = YoutubeDL::Video.new(video_url)
   end
   
