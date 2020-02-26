@@ -23,7 +23,7 @@ GEM
     mini_portile2 (2.4.0)
     net-http-digest_auth (1.4.1)
     net-http-persistent (2.9.4)
-    nokogiri (1.10.3)
+    nokogiri (1.10.8)
       mini_portile2 (~> 2.4.0)
     ntlm-http (0.1.1)
     terrapin (0.6.0)
@@ -31,7 +31,10 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.6)
+    unicode-display_width (1.6.1)
     webrobots (0.1.2)
+    whirly (0.2.6)
+      unicode-display_width (~> 1.1)
     youtube-dl.rb (0.3.1.2016.09.11.1)
       cocaine (>= 0.5.4)
 
@@ -41,6 +44,7 @@ PLATFORMS
 DEPENDENCIES
   mechanize
   nokogiri
+  whirly
   youtube-dl.rb
 
 BUNDLED WITH
